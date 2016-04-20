@@ -9,5 +9,6 @@ import com.indra.formacio.model.Employee;
 public interface EmployeeRepoMethods {
 	
 	List<Employee> findBySurname(String surname);
-	List<Employee> findByData_alta(Calendar fecha_alta);
+	
+	
 }
